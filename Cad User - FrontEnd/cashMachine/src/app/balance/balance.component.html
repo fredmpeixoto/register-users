@@ -1,0 +1,16 @@
+<form>
+  <span>
+    Saldo atual :
+    {{ balanceCurrent | currency:'BR ' }}
+  </span>
+  <div class="bottom">
+
+    <mat-form-field class="example-full-width">
+      <input matInput type="number" autofocus [(ngModel)]="value" name="value" placeholder="Retirar dinheiro: 0.00">
+    </mat-form-field>
+
+    <button mat-button (click)="removeBalance(value)"
+    matTooltip="Se o valor for menor que o minimo não será possivel sacar."
+    [disabled]="balanceCurrent < 10">RETIRAR</button>
+  </div>
+</form>

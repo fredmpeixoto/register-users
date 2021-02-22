@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>Olá, pegue abaixo suas cédulas </h1>
+<small>
+    (Somente cédulas de 10,20,50,100 reais estão disponiveis)***
+</small>
+<div mat-dialog-content>
+  <p>Cédulas </p>
+  <ul>
+    <li *ngFor="let item of data.cedulas"> {{ item | currency:'R$ ' }}</li>
+  </ul>
+<span>
+
+</span>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Obrigado</button>
+</div>

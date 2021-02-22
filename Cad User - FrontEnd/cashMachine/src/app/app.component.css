@@ -1,0 +1,17 @@
+.nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  padding: 150px;
+}
+
+.money{
+  color: green;
+  align-self: center;
+}

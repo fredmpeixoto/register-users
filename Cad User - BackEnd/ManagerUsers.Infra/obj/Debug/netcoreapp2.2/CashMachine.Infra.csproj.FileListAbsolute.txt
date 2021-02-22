@@ -1,0 +1,26 @@
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Infra.deps.json
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Infra.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Infra.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Domain.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Domain.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.csprojAssemblyReference.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.csproj.CoreCompileInputs.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.AssemblyInfoInputs.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.AssemblyInfo.cs
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.csproj.CopyComplete
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Infra.deps.json
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Infra.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Infra.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Domain.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Domain.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.csprojAssemblyReference.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.csproj.CoreCompileInputs.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.AssemblyInfoInputs.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.AssemblyInfo.cs
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.csproj.CopyComplete
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\obj\Debug\netcoreapp2.2\CashMachine.Infra.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Infra.runtimeconfig.json
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Infra\bin\Debug\netcoreapp2.2\CashMachine.Infra.runtimeconfig.dev.json

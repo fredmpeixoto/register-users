@@ -1,0 +1,9 @@
+.example-full-width{
+  width: 100%;
+}
+
+.bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}

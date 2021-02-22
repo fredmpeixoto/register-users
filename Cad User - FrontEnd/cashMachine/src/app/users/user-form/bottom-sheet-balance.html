@@ -1,0 +1,11 @@
+<form >
+<div class="bottom">
+
+  <mat-form-field class="example-full-width">
+    <input matInput type="number" [(ngModel)]="value" name="value" placeholder="Adicione dinheiro: 0.00">
+  </mat-form-field>
+
+  <button mat-button (click)="updateBalance(value)">ENVIAR</button>
+
+</div>
+</form>

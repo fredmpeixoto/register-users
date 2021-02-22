@@ -1,0 +1,41 @@
+<mat-toolbar>
+  <div class="nav">
+    <div>
+      <span> Cash Machine</span>
+    </div>
+    <div>
+      <button *ngIf="userName" matTooltip="Clique para sacar o dinheiro" class="money" (click)="openBalance()"
+        mat-icon-button> Sacar
+        <mat-icon>attach_money</mat-icon></button>
+    </div>
+    <div>
+      <span>
+        <small>
+          {{userName ? 'Wellcome': ''  }} {{ userName }}
+        </small>
+      </span>
+    </div>
+    <div style="text-align: end;">
+      <button mat-button [matMenuTriggerFor]="menu">
+        <mat-icon class="mat-18">menu</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="./users"> LISTAR USUARIO</button>
+        <button mat-menu-item routerLink="./user">CRIAR USUARIO</button>
+        <ng-container *ngIf="!showLogin; else logOut">
+          <a mat-button routerLink="./login">LOGIN</a>
+        </ng-container>
+        <ng-template #logOut>
+          <a mat-button (click)="logout()">LOGOUT</a>
+        </ng-template>
+      </mat-menu>
+
+    </div>
+  </div>
+
+</mat-toolbar>
+
+<div class="grid">
+
+  <router-outlet></router-outlet>
+</div>

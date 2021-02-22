@@ -1,0 +1,9 @@
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Domain\bin\Debug\netcoreapp2.0\CashMachine.Domain.deps.json
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Domain\bin\Debug\netcoreapp2.0\CashMachine.Domain.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Domain\bin\Debug\netcoreapp2.0\CashMachine.Domain.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Domain\obj\Debug\netcoreapp2.0\CashMachine.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Domain\obj\Debug\netcoreapp2.0\CashMachine.Domain.AssemblyInfoInputs.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Domain\obj\Debug\netcoreapp2.0\CashMachine.Domain.AssemblyInfo.cs
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Domain\obj\Debug\netcoreapp2.0\CashMachine.Domain.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Domain\obj\Debug\netcoreapp2.0\CashMachine.Domain.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Domain\obj\Debug\netcoreapp2.0\CashMachine.Domain.csprojAssemblyReference.cache

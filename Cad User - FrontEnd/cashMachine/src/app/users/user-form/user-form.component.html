@@ -1,0 +1,24 @@
+<div class="form">
+
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Nome" [(ngModel)]="user.name" name="name">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="CPF" type="text" maxlength="11" [(ngModel)]="user.cpf" name="cpf">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Email" type="text" [(ngModel)]="user.email" name="email">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Senha" type="password" [(ngModel)]="user.password" name="password">
+    </mat-form-field>
+
+    <button class="example-full-width" (click)="saveUser(user)" mat-button color="primary">SALVAR</button>
+
+    <button class="example-full-width" mat-raised-button (click)="openBottomSheet()" [disabled]="!user.id">CADASTRAR
+      SALDO</button>
+  </form>
+
+</div>

@@ -1,0 +1,32 @@
+<ng-container *ngIf="dataUsers && dataUsers.length > 0; else message">
+  <div class="card-tabela">
+    <table>
+    <thead>
+      <tr>
+      <th style="min-width: 120px">Nome</th>
+      <th>Email</th>
+      <th>CPF</th>
+      <th style="min-width: 70px">Saldo</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of dataUsers">
+      <td> {{item.name}}</td>
+      <td> {{item.email}}</td>
+      <td> {{item.cpf}}</td>
+      <td> {{item.balance |  currency:'R$ ' }}</td>
+      <td><button mat-mini-fab [routerLink]="['/user',item.id]"><mat-icon>edit</mat-icon></button></td>
+      <td><button mat-mini-fab color="warn" (click)="remove(item)" ><mat-icon>remove</mat-icon></button></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</ng-container>
+<ng-template #message>
+  <div class="message">
+    <span>Não existe usuários cadastrados!</span>
+  </div>
+</ng-template>
