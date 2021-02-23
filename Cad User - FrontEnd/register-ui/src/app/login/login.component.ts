@@ -31,7 +31,7 @@ export class LoginComponent {
 
   redirect(success: AuthLogin) {
     if (success.authenticated) {
-      this.openSnackBar("Wellcome", "Close");
+      this.openSnackBar('Wellcome', 'Close');
       localStorage.setItem('token', JSON.stringify(success));
       this.route.navigateByUrl('/users');
     }
@@ -41,5 +41,9 @@ export class LoginComponent {
     this._snackBar.open(message, action, {
       duration: 2000,
     });
+  }
+
+  disabledForm(): boolean {
+    return !this.user.email || !this.user.password;
   }
 }
