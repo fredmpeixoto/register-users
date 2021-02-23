@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj": {}
+    "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj": {}
   },
   "projects": {
-    "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {
+    "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
+        "projectUniqueName": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
         "projectName": "ManagerUsers.Domain",
-        "projectPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
+        "projectPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
         "packagesPath": "C:\\Users\\fredm\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\obj\\",
+        "outputPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fredm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj": {
+    "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj",
+        "projectUniqueName": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj",
         "projectName": "ManagerUsers.Infra",
-        "projectPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj",
+        "projectPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj",
         "packagesPath": "C:\\Users\\fredm\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Infra\\obj\\",
+        "outputPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fredm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {
-                "projectPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj"
+              "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {
+                "projectPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj"
               }
             }
           }

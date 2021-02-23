@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E+S5gpx7LQg50CSwZwT7GCDE+4BmUj8AgqOlK4J55p1n7KHVByUUPaiwg2If1cNgUSqc1vYoO8fZ1cgur6hd0Q==",
+  "dgSpecHash": "Nob/oadnK+a6vsdbm7iJLHrSpyUn/SGZq/t9PdJTkx5XIU+qyzVWYkFLN+6iMr0RatjTYCY1ja/t9Ubp59eMhg==",
   "success": true,
-  "projectFilePath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Api\\ManagerUsers.Api.csproj",
+  "projectFilePath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Api\\ManagerUsers.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fredm\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\fredm\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.12\\microsoft.aspnetcore.authentication.jwtbearer.3.1.12.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {}
+    "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {}
   },
   "projects": {
-    "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {
+    "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
+        "projectUniqueName": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
         "projectName": "ManagerUsers.Domain",
-        "projectPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
+        "projectPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
         "packagesPath": "C:\\Users\\fredm\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\obj\\",
+        "outputPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fredm\\AppData\\Roaming\\NuGet\\NuGet.Config",

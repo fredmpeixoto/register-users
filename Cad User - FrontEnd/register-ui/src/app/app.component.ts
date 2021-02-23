@@ -8,7 +8,7 @@ import { MatBottomSheet } from '@angular/material/bottom-sheet';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cashMachine';
+  title = 'register-ui';
 
   constructor(private _bottomSheet: MatBottomSheet) { }
 

@@ -1,5 +1,6 @@
 ﻿using ManagerUsers.Domain.Interfaces;
 using ManagerUsers.Domain.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -18,7 +19,7 @@ namespace ManagerUsers.Api.Controllers
             _userService = userService;
         }
         // GET: api/User
-        [HttpGet]
+        [Authorize, HttpGet]
         public IActionResult Get()
         {
             try
@@ -47,7 +48,7 @@ namespace ManagerUsers.Api.Controllers
 
         // POST: api/User
         [HttpPost]
-        public IActionResult Post([FromBody]UserVM value)
+        public IActionResult Post([FromBody] UserVM value)
         {
             try
             {
@@ -65,7 +66,7 @@ namespace ManagerUsers.Api.Controllers
 
         // PUT: api/User/5
         [HttpPut("{id}")]
-        public IActionResult Put(string id, [FromBody]UserVM value)
+        public IActionResult Put(string id, [FromBody] UserVM value)
         {
             try
             {

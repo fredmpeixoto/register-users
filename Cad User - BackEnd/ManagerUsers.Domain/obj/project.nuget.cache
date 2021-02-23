@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ne3ZaUC7AcFJYNSC7GCr0HecQo1FAFTsA+441KbfAQzcmyWIJQpVySc9MhwrnYrKO4zXtN/oXlkjPadSNKZJPw==",
+  "dgSpecHash": "q447YtlLLEZvy2v45xcHHxDzF5LDlC7YbxTvr5d276nK4dF+zJ9e+cPVai83oijfJhGLKlkMmVQIUGT6MsfbAQ==",
   "success": true,
-  "projectFilePath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
+  "projectFilePath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

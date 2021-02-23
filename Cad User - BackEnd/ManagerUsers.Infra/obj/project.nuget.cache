@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pOsmpBugEwCeIPgvrR5mtjTZuMuOtbtZ8UiyZ13ClNYtAtawi/iRfq31L0IW7Z6JEz9m22/p1F3hx2JMmrWX7g==",
+  "dgSpecHash": "Q9V5RLF7nq83e0L9Jjb4f5bVv+3L9EXDEYY+Zddn3jOpLAWLQhPASDrOShuSSJEMrKrjjzeKXlzFfVylf0UZZQ==",
   "success": true,
-  "projectFilePath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj",
+  "projectFilePath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fredm\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\fredm\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

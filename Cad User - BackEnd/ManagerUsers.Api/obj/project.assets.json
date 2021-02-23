@@ -6054,11 +6054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Api\\ManagerUsers.Api.csproj",
+      "projectUniqueName": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Api\\ManagerUsers.Api.csproj",
       "projectName": "ManagerUsers.Api",
-      "projectPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Api\\ManagerUsers.Api.csproj",
+      "projectPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Api\\ManagerUsers.Api.csproj",
       "packagesPath": "C:\\Users\\fredm\\.nuget\\packages\\",
-      "outputPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Api\\obj\\",
+      "outputPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fredm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6075,11 +6075,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {
-              "projectPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj"
+            "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj": {
+              "projectPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Domain\\ManagerUsers.Domain.csproj"
             },
-            "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj": {
-              "projectPath": "D:\\PROJETOS\\PERSONAL\\InBev\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj"
+            "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj": {
+              "projectPath": "D:\\PROJETOS\\PERSONAL\\register-users\\Cad User - BackEnd\\ManagerUsers.Infra\\ManagerUsers.Infra.csproj"
             }
           }
         }
