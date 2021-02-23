@@ -10,8 +10,8 @@ import { ActivatedRoute, RouterOutlet } from '@angular/router';
 export class FormComponent implements OnInit {
   user: User;
   constructor(
-    private activatedRoute: ActivatedRoute,
-    private userService: UserService
+    private userService: UserService,
+    private activatedRoute: ActivatedRoute
   ) {
     this.user = {};
     let userId = this.activatedRoute.snapshot.params.id;
@@ -30,5 +30,9 @@ export class FormComponent implements OnInit {
 
   getById(userId: string) {
     this.userService.getById(userId).subscribe((user) => (this.user = user));
+  }
+
+  disabledForm(): boolean {
+    return !this.user.password || !this.user.email;
   }
 }
