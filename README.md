@@ -31,17 +31,17 @@ Follow it steps to import.
 
 ## Run API from Visual Studio 
 
-1 - Restore NuGet package from Solution
-2 - Set ManagerAPI as Startup Project
-3- Execute ISS Express and the API will open Swagger Documentation API
+1. Restore NuGet package from Solution
+2. Set ManagerAPI as Startup Project
+3. Execute ISS Express and the API will open Swagger Documentation API
 
 ## Install and Open Angular Project 
 
-1 -  npm i
-2 - to run `ng serve`
-3 - to unit test `ng test`
+1.  npm i
+2. To run `ng serve`
+3. To unit test `ng test`
 
 ## To login
 
-1 - user: `fredmpeixoto@gmail.com` | password: `123456`
+- user: `fredmpeixoto@gmail.com` | password: `123456`
 
