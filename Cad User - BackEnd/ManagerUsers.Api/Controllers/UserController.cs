@@ -7,10 +7,11 @@ using System;
 
 namespace ManagerUsers.Api.Controllers
 {
-    [EnableCors("CorsPolicy")]
 
     [Produces("application/json")]
     [Route("api/User")]
+    [AllowAnonymous]
+    [EnableCors("_myCorsPolicy")]
     public class UserController : Controller
     {
         private IUserService _userService;
@@ -19,7 +20,7 @@ namespace ManagerUsers.Api.Controllers
             _userService = userService;
         }
         // GET: api/User
-        [Authorize, HttpGet]
+        [HttpGet]
         public IActionResult Get()
         {
             try

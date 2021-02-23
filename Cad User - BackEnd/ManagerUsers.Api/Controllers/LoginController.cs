@@ -22,7 +22,7 @@ namespace ManagerUsers.Api.Controllers
             _userService = userService;
         }
 
-        [EnableCors("CorsPolicy")]
+        [EnableCors("_myCorsPolicy")]
         [AllowAnonymous]
         [HttpPost]
         public object Post([FromBody]UserLoginVM bodyUser, [FromServices]SigningConfigurations signingConfigurations, [FromServices]TokenConfigurations tokenConfigurations)

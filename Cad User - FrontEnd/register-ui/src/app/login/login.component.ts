@@ -1,39 +1,32 @@
+import { LoginService } from './../shared/services/login.service';
+import { UserService } from './../shared/services/user.service';
 import { Component, OnInit } from '@angular/core';
-import { User } from '../users/user.interfaces/user.interface';
-import { LoginService } from './login.service/login.service';
-import { ToastService } from '../commons/toast.service';
+import { User } from '../shared/interfaces/user.interface';
+import { AuthLogin } from '../shared/interfaces/auth-login.interface';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.css'],
 })
-export class LoginComponent implements OnInit {
-
+export class LoginComponent {
   public user: User;
 
-  constructor(
-    private loginService: LoginService,
-    private toastService: ToastService,
-    private router: Router) {
-    this.user = {
-      email: "",
-      password: ""
-    }
+  constructor(private route: Router, private loginService: LoginService) {
+    this.user = {};
   }
 
-  ngOnInit() { }
+  enter(): void {
+    this.loginService
+      .enter(this.user)
+      .subscribe((success) => this.redirect(success));
+  }
 
-  login(user: User) {
-    this.loginService.login(user)
-      .subscribe((data: any) => {
-        localStorage.setItem("token", JSON.stringify( data));
-        this.toastService.openSnackBar("Login efetuado com sucesso!");
-        this.router.navigate(['/users']);
-
-      }, error => {
-        this.toastService.openSnackBar("Login erro!");
-      })
+  redirect(success: AuthLogin) {
+    if (success.authenticated) {
+      localStorage.setItem('token', JSON.stringify(success));
+      this.route.navigateByUrl('/users');
+    }
   }
 }

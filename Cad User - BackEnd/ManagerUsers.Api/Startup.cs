@@ -36,6 +36,24 @@ namespace ManagerUsers.Api
             services.AddDbContext<UserContext>(options =>
               options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+
+            // Add application services.
+            services.AddControllers();
+
+
+            // Add service and create Policy with options CORES
+            services.AddCors(options =>
+            {
+                options.AddPolicy(myCorsPolicy,
+                    builder =>
+                    builder.AllowAnyMethod()
+                           .AllowAnyHeader()
+                           .SetIsOriginAllowed(_ => true)
+                           .AllowCredentials()
+                    ); ;
+            });
+
+
             #region AUTH
             // services.AddTransient<UsersDAO>();
 
@@ -82,23 +100,6 @@ namespace ManagerUsers.Api
 
             #endregion
 
-
-            // Add service and create Policy with options CORES
-            services.AddCors(options =>
-            {
-                options.AddPolicy(myCorsPolicy,
-                    builder =>
-                    builder.AllowAnyOrigin()
-                           .AllowAnyMethod()
-                           .AllowAnyHeader()
-                    );
-            });
-
-            // Add application services.
-
-            services.AddControllers();
-
-            services.AddCors();
 
             #region services
             services.AddTransient<IUserService, UserService>();
