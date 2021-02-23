@@ -1,10 +1,12 @@
 :host {
   h1 {
     width: 100%;
-    padding: 12px;
+    padding: 12px 0 12px;
     color: white;
     background-color: #f49c00;
     box-shadow: 1px 1px 4px 2px #cdb8b8;
+    letter-spacing: 8px;
+    text-align: center;
   }
 
   span {

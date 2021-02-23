@@ -1,33 +1,26 @@
-<div>
+<div [routerLink]="[ '/users',  ]" mat-subheader>
 
-  <div [routerLink]="[ '/users',  ]" mat-subheader>
+  <mat-icon>undo</mat-icon>
 
-    <mat-icon>undo</mat-icon>
-
-    <span style="color:grey">
-      Users List!
-    </span>
-
-  </div>
-
-  <h1>{{user?.id ? 'Update' : 'Create'}} your user</h1>
-
-  <form>
-
-    <input name="name" placeholder="Name" type="text" [(ngModel)]="user.name">
-
-    <input name="email" placeholder="E-mail" type="text" [(ngModel)]="user.email">
-
-    <input name="cpf" placeholder="CPF" type="text" [(ngModel)]="user.cpf">
-
-    <input name="password" placeholder="Passowrd" type="password" [(ngModel)]="user.password">
-
-    <button (click)="save()" [disabled]="disabledForm()">Save</button>
-
-  </form>
-
+  <span style="color:grey">
+    Users List!
+  </span>
 
 </div>
-<div>
 
-</div>
+<h1>{{user?.id ? 'Update' : 'Create'}} your user</h1>
+
+<form>
+
+  <input name="name" placeholder="Name" type="text" [(ngModel)]="user.name">
+
+  <input name="email" placeholder="E-mail" type="text" [(ngModel)]="user.email">
+
+  <input name="cpf" placeholder="CPF" type="text" [(ngModel)]="user.cpf">
+
+  <input name="password" placeholder="Passowrd" type="password" [(ngModel)]="user.password">
+
+  <button (click)="save()" [disabled]="disabledForm()">Save</button>
+
+</form>
+
