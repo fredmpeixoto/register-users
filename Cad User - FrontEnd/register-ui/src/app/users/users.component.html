@@ -1,13 +1,14 @@
-<p>users works!</p>
-
 <mat-list>
 
   <div mat-subheader>Users!</div>
+
   <mat-list-item *ngFor="let user of users">
 
     <mat-icon mat-list-icon>account_circle</mat-icon>
 
     <div mat-line>{{user?.name}}</div>
+
+    <mat-icon mat-list-icon>delete</mat-icon>
 
   </mat-list-item>
 

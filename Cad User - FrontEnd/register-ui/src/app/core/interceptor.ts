@@ -15,7 +15,6 @@ export class HttpsRequestInterceptor implements HttpInterceptor {
     next: HttpHandler
   ): Observable<HttpEvent<any>> {
     let dupReq = req;
-    debugger
     if (localStorage.getItem('token')) {
       let token = JSON.parse(localStorage.getItem('token')).accessToken;
       dupReq = req.clone({
