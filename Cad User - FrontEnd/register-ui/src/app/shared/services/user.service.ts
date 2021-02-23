@@ -18,12 +18,12 @@ export class UserService {
     return this.httpClient.get<User[]>(this.endpoint);
   }
 
-  getById(user: User): Observable<User> {
-    return this.httpClient.get(`${this.endpoint}/${user.id}`);
+  getById(userId: string): Observable<User> {
+    return this.httpClient.get(`${this.endpoint}/${userId}`);
   }
 
   update(user: User): Observable<User> {
-    return this.httpClient.put(this.endpoint, user);
+    return this.httpClient.put(`${this.endpoint}/${user.id}`, user);
   }
 
   delete(user: User): Observable<User> {

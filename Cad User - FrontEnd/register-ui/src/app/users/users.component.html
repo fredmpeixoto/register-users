@@ -4,7 +4,7 @@
 
   <mat-list-item *ngFor="let user of users">
 
-    <mat-icon mat-list-icon>account_circle</mat-icon>
+    <mat-icon [routerLink]="['/users/form/', user.id]" mat-list-icon>account_circle</mat-icon>
 
     <div mat-line>{{user?.name}},
       <span style="color:grey">
@@ -21,6 +21,6 @@
 </mat-list>
 
 
-<button class="float" mat-fab>
+<button class="float" [routerLink]="['/users/form']" routerLinkActive="router-link-active"  mat-fab>
   <mat-icon>add</mat-icon>
 </button>

@@ -6,3 +6,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 mat-icon{
   cursor: pointer;
 }
+
+input, button{
+  margin:8px;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  text-align: center;
+}
+
+button{
+  color:white;
+  background-color: #f49c00;
+}

@@ -1,0 +1,19 @@
+:host {
+  display: grid;
+  grid-template-columns: 1fr 1fr;;
+
+  input {
+    box-shadow: 1px 1px 2px 2px rgb(199, 195, 195);
+  }
+
+  form{
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  button:disabled{
+    background-color:rgb(221, 217, 217);
+  }
+
+}
