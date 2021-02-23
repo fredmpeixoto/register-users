@@ -25,7 +25,7 @@ namespace ManagerUsers.Api.Controllers
         [EnableCors("_myCorsPolicy")]
         [AllowAnonymous]
         [HttpPost]
-        public object Post([FromBody]UserLoginVM bodyUser, [FromServices]SigningConfigurations signingConfigurations, [FromServices]TokenConfigurations tokenConfigurations)
+        public IActionResult Post([FromBody] UserLoginVM bodyUser, [FromServices] SigningConfigurations signingConfigurations, [FromServices] TokenConfigurations tokenConfigurations)
         {
             UserVM user = _userService.Login(bodyUser.Email, bodyUser.Password);
 
@@ -55,7 +55,7 @@ namespace ManagerUsers.Api.Controllers
                 });
                 var token = handler.WriteToken(securityToken);
 
-                return new
+                return Ok(new
                 {
                     authenticated = true,
                     created = dateCreate.ToString("yyyy-MM-dd HH:mm:ss"),
@@ -63,15 +63,15 @@ namespace ManagerUsers.Api.Controllers
                     accessToken = token,
                     user = user,
                     message = "OK"
-                };
+                });
             }
             else
             {
-                return new
+                return BadRequest(new
                 {
                     authenticated = false,
                     message = "Auth fail"
-                };
+                });
             }
         }
 

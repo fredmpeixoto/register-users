@@ -1,6 +1,7 @@
 import { UserService } from './../shared/services/user.service';
 import { Component, OnInit } from '@angular/core';
 import { User } from '../shared/interfaces/user.interface';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-users',
@@ -9,7 +10,10 @@ import { User } from '../shared/interfaces/user.interface';
 })
 export class UsersComponent implements OnInit {
   public users: User[];
-  constructor(private userService: UserService) {}
+  constructor(
+    private _snackBar: MatSnackBar,
+    private userService: UserService
+  ) {}
 
   ngOnInit(): void {
     this.getAll();
@@ -20,11 +24,16 @@ export class UsersComponent implements OnInit {
   }
 
   delete(user: User): void {
-    this.userService.delete(user)
-    .subscribe(success => this.showMessage());
+    this.userService.delete(user).subscribe((success) => this.showMessage());
   }
 
   showMessage(): void {
-    throw new Error('Method not implemented.');
+    this.openSnackBar('Deleted', 'Close');
+  }
+
+  openSnackBar(message: string, action: string) {
+    this._snackBar.open(message, action, {
+      duration: 2000,
+    });
   }
 }

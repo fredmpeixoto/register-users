@@ -28,9 +28,10 @@ namespace ManagerUsers.Domain.Services
                 {
                     var newUser = ConvertToDomain(new User(), entity);
                     return new UserVM(_userRepository.Create(newUser));
-                }else
+                }
+                else
                 {
-                    throw new Exception("Usuario já existe");
+                    throw new Exception("There is this user in database!");
                 }
             }
             catch (Exception e)
@@ -56,7 +57,11 @@ namespace ManagerUsers.Domain.Services
         {
             try
             {
-                return new UserVM(_userRepository.Login(email, password));
+                User user = _userRepository.Login(email, password);
+
+                if (user == null) return null;
+
+                return new UserVM(user);
             }
             catch (Exception e)
             {

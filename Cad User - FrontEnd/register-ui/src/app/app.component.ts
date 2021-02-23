@@ -8,9 +8,8 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
 
-  constructor(private router:Router){
+  constructor(private router:Router){ }
 
-  }
   logout():void{
     localStorage.removeItem("token");
     this.router.navigateByUrl("/");
