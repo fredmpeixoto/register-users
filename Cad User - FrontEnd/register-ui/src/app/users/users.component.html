@@ -6,12 +6,21 @@
 
     <mat-icon mat-list-icon>account_circle</mat-icon>
 
-    <div mat-line>{{user?.name}}</div>
+    <div mat-line>{{user?.name}},
+      <span style="color:grey">
+        {{user?.email}}
+      </span>
+    </div>
 
-    <mat-icon mat-list-icon>delete</mat-icon>
+    <mat-icon (click)="delete(user)" style="color: red">delete</mat-icon>
 
   </mat-list-item>
 
   <mat-divider></mat-divider>
 
 </mat-list>
+
+
+<button class="float" mat-fab>
+  <mat-icon>add</mat-icon>
+</button>
