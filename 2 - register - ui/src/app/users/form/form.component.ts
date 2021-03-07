@@ -11,7 +11,7 @@ import { ActivatedRoute, RouterOutlet } from '@angular/router';
 export class FormComponent implements OnInit {
   user: User;
   constructor(
-    private _snackBar:MatSnackBar,
+    private _snackBar: MatSnackBar,
     private userService: UserService,
     private activatedRoute: ActivatedRoute
   ) {
@@ -27,10 +27,15 @@ export class FormComponent implements OnInit {
       ? this.userService.update(this.user)
       : this.userService.create(this.user);
 
-    _request.subscribe(() => this.openSnackBar("Saved","Close"), error => this.showError());
+    _request.subscribe(
+      () => this.openSnackBar('Saved', 'Close'),
+      (error) => this.showError(error)
+    );
   }
-  showError(): void {
-    this.openSnackBar("Somethings is wrong","Close");
+  showError(erro: any): void {
+    if (erro.status === 400) {
+      for (const key in erro.error) this.openSnackBar(erro.error[key], 'Close');
+    } else this.openSnackBar('Somethings is wrong', 'Close');
   }
 
   getById(userId: string) {

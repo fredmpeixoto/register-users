@@ -71,7 +71,10 @@ namespace ManagerUsers.Api.Controllers
         {
             try
             {
-                return Ok(_userService.Update(id, value));
+                if (ModelState.IsValid)
+                    return Ok(_userService.Update(id, value));
+                else
+                    return BadRequest(ModelState);
             }
             catch (Exception e)
             {
