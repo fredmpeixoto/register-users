@@ -2,6 +2,8 @@
 
   <div mat-subheader>Users!</div>
 
+  <input class="search" [(ngModel)]="textFilter" type="search" placeholder="Find by Name or Surname" (keyup)="filter()"/>
+
   <mat-list-item *ngFor="let user of users">
 
     <mat-icon [routerLink]="['/users/form/', user.id]" mat-list-icon>account_circle</mat-icon>

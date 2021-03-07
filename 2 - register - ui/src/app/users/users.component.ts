@@ -9,7 +9,9 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   styleUrls: ['./users.component.scss'],
 })
 export class UsersComponent implements OnInit {
+  public textFilter: string;
   public users: User[];
+  public usersOrigin: User[];
   constructor(
     private _snackBar: MatSnackBar,
     private userService: UserService
@@ -20,7 +22,12 @@ export class UsersComponent implements OnInit {
   }
 
   getAll() {
-    this.userService.getAll().subscribe((users) => (this.users = users));
+    this.userService.getAll().subscribe((users) => this.setUsers(users));
+  }
+
+  private setUsers(users: User[]): void {
+    this.users = users;
+    this.usersOrigin = users;
   }
 
   delete(user: User): void {
@@ -36,5 +43,13 @@ export class UsersComponent implements OnInit {
     this._snackBar.open(message, action, {
       duration: 2000,
     });
+  }
+
+  filter(): void {
+    this.users = this.usersOrigin.filter((user) =>
+      user.name.split(' ').some((word) => word === this.textFilter)
+    );
+
+    if (this.textFilter.length === 0) this.users = this.usersOrigin;
   }
 }

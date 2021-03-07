@@ -16,3 +16,12 @@ D:\PROJETOS\PERSONAL\register-users\Cad User - BackEnd\ManagerUsers.Domain\obj\D
 D:\PROJETOS\PERSONAL\register-users\Cad User - BackEnd\ManagerUsers.Domain\obj\Debug\netcoreapp3.1\ManagerUsers.Domain.csproj.CoreCompileInputs.cache
 D:\PROJETOS\PERSONAL\register-users\Cad User - BackEnd\ManagerUsers.Domain\obj\Debug\netcoreapp3.1\ManagerUsers.Domain.dll
 D:\PROJETOS\PERSONAL\register-users\Cad User - BackEnd\ManagerUsers.Domain\obj\Debug\netcoreapp3.1\ManagerUsers.Domain.pdb
+D:\PROJETOS\PERSONAL\register-users\1- register - api\ManagerUsers.Domain\bin\Debug\netcoreapp3.1\ManagerUsers.Domain.deps.json
+D:\PROJETOS\PERSONAL\register-users\1- register - api\ManagerUsers.Domain\bin\Debug\netcoreapp3.1\ManagerUsers.Domain.dll
+D:\PROJETOS\PERSONAL\register-users\1- register - api\ManagerUsers.Domain\bin\Debug\netcoreapp3.1\ManagerUsers.Domain.pdb
+D:\PROJETOS\PERSONAL\register-users\1- register - api\ManagerUsers.Domain\obj\Debug\netcoreapp3.1\ManagerUsers.Domain.csprojAssemblyReference.cache
+D:\PROJETOS\PERSONAL\register-users\1- register - api\ManagerUsers.Domain\obj\Debug\netcoreapp3.1\ManagerUsers.Domain.AssemblyInfoInputs.cache
+D:\PROJETOS\PERSONAL\register-users\1- register - api\ManagerUsers.Domain\obj\Debug\netcoreapp3.1\ManagerUsers.Domain.AssemblyInfo.cs
+D:\PROJETOS\PERSONAL\register-users\1- register - api\ManagerUsers.Domain\obj\Debug\netcoreapp3.1\ManagerUsers.Domain.csproj.CoreCompileInputs.cache
+D:\PROJETOS\PERSONAL\register-users\1- register - api\ManagerUsers.Domain\obj\Debug\netcoreapp3.1\ManagerUsers.Domain.dll
+D:\PROJETOS\PERSONAL\register-users\1- register - api\ManagerUsers.Domain\obj\Debug\netcoreapp3.1\ManagerUsers.Domain.pdb

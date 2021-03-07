@@ -11,8 +11,19 @@ namespace ManagerUsers.Infra.EntityConfig
             #region User
             builder.Property(e => e.Email);
 
+            builder.Property(e => e.Name)
+                .HasMaxLength(50)
+                .IsRequired();
+
+            builder.Property(e => e.Address)
+                .HasMaxLength(50);
+
+            builder.Property(e => e.Age)
+                .IsRequired();
+
             builder.Property(e => e.Cpf)
                 .IsRequired();
+
             #endregion
         }
     }

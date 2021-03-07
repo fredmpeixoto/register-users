@@ -4,6 +4,7 @@ using ManagerUsers.Infra.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ManagerUsers.Infra.Migrations
 {
@@ -24,6 +25,13 @@ namespace ManagerUsers.Infra.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<string>("Address")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("Age")
+                        .HasColumnType("int");
+
                     b.Property<string>("Cpf")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -32,7 +40,9 @@ namespace ManagerUsers.Infra.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
@@ -41,6 +51,7 @@ namespace ManagerUsers.Infra.Migrations
 
                     b.ToTable("Users");
                 });
+#pragma warning restore 612, 618
         }
     }
 }

@@ -18,6 +18,10 @@
 
   <input name="cpf" placeholder="CPF" type="text" [(ngModel)]="user.cpf">
 
+  <input name="cpf" placeholder="AGE" type="number" [(ngModel)]="user.age">
+
+  <input name="cpf" placeholder="Address" type="text" [(ngModel)]="user.address">
+
   <input name="password" placeholder="Passowrd" type="password" [(ngModel)]="user.password">
 
   <button (click)="save()" [disabled]="disabledForm()">Save</button>
