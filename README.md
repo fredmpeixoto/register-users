@@ -1,5 +1,5 @@
 # register-users
-Project to Inbev using aspnet.core 3.1 and angular 11
+Project to register users using aspnet.core 3.1 and angular 11
 
 ## Docker command to generator the server Database
 ###### 1 - Create Docker container
