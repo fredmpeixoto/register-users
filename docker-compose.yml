@@ -4,13 +4,14 @@ services:
   sql1:
     build:
       context: .
-      dockerfile: "./database/Dockerfile"
+      dockerfile: "./DATABASE/Dockerfile"
     ports:
       - "1433:1433"
     container_name: sql1
   register-api:
     build: 
       context: .
-      dockerfile: "./1 - register - api/Dockerfile"
+      dockerfile: "./API/Dockerfile"
     ports:
-      - "80:80"
+      - "8080:4000"
+      - "8081:4001"

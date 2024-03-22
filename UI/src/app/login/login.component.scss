@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 25%;
+  text-align: center;
+
+  @media screen and (max-width: 768px) {
+    padding: 16px 8px !important;
+  }
+
+  input {
+    box-shadow: 1px 1px 6px 0px #d4d4d9;
+  }
+}

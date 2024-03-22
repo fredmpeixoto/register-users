@@ -1,0 +1,3 @@
+/Users/fredpeixoto/Projects/register-users/1- register - api/out/ManagerUsers.Domain.dll
+/Users/fredpeixoto/Projects/register-users/1- register - api/out/ManagerUsers.Domain.deps.json
+/Users/fredpeixoto/Projects/register-users/1- register - api/out/ManagerUsers.Domain.pdb

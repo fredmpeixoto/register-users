@@ -1,0 +1,16 @@
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\bin\Debug\netcoreapp2.0\CashMachine.Api.deps.json
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\bin\Debug\netcoreapp2.0\CashMachine.Api.runtimeconfig.json
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\bin\Debug\netcoreapp2.0\CashMachine.Api.runtimeconfig.dev.json
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\bin\Debug\netcoreapp2.0\CashMachine.Api.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\bin\Debug\netcoreapp2.0\CashMachine.Api.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\bin\Debug\netcoreapp2.0\CashMachine.Domain.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\bin\Debug\netcoreapp2.0\CashMachine.Infra.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\bin\Debug\netcoreapp2.0\CashMachine.Domain.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\bin\Debug\netcoreapp2.0\CashMachine.Infra.pdb
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\obj\Debug\netcoreapp2.0\CashMachine.Api.csprojAssemblyReference.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\obj\Debug\netcoreapp2.0\CashMachine.Api.csproj.CoreCompileInputs.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\obj\Debug\netcoreapp2.0\CashMachine.Api.AssemblyInfoInputs.cache
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\obj\Debug\netcoreapp2.0\CashMachine.Api.AssemblyInfo.cs
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\obj\Debug\netcoreapp2.0\CashMachine.Api.csproj.CopyComplete
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\obj\Debug\netcoreapp2.0\CashMachine.Api.dll
+C:\Users\fredm\Documents\test-gsw\teste-dev-.net\CashMachine - BackEnd\CashMachine.Api\obj\Debug\netcoreapp2.0\CashMachine.Api.pdb

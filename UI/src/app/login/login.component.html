@@ -1,0 +1,8 @@
+
+<h3>Login</h3>
+
+<input placeholder="E-mail" [(ngModel)]="user.email" type="email">
+
+<input placeholder="Password" [(ngModel)]="user.password" type="password">
+
+<button (click)="enter()" [disabled]="disabledForm()">ENTER</button>
