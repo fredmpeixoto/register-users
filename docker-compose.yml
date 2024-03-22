@@ -8,9 +8,19 @@ services:
     ports:
       - "1433:1433"
     container_name: sql1
+    networks:
+      - my_bridge_network
+
   register-api:
     build: 
       dockerfile: API/Dockerfile
     ports:
       - "8080:4000"
       - "8081:4001"
+    container_name: register-api
+    networks:
+      - my_bridge_network
+
+networks:
+  my_bridge_network:
+    driver: overlay
