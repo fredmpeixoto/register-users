@@ -15,12 +15,6 @@ namespace ManagerUsers.Infra.EntityConfig
                 .HasMaxLength(50)
                 .IsRequired();
 
-            builder.Property(e => e.Address)
-                .HasMaxLength(50);
-
-            builder.Property(e => e.Age)
-                .IsRequired();
-
             builder.Property(e => e.Cpf)
                 .IsRequired();
 

@@ -1,19 +1,24 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1
-WORKDIR /app
+# https://hub.docker.com/_/microsoft-dotnet
+FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+WORKDIR /source
 
-ARG BUILD_CONFIGURATION=Debug
+COPY API/ .
+RUN pwd && ls -la
+
+
+#ARG BUILD_CONFIGURATION=Debug
 ENV ASPNETCORE_ENVIRONMENT=Development
-ENV DOTNET_USE_POLLING_FILE_WATCHER=true  
-ENV ASPNETCORE_URLS=http://+:4000  
-# 2. Copy necessary files
-COPY /API/ .
-RUN dotnet restore 
+RUN dotnet restore
 
-# 3. Copy the rest of the files and build
-COPY . .
-RUN dotnet publish -c Release -o out
+WORKDIR /source/
+RUN dotnet publish -c release -o /app --no-restore
+
+# final stage/image
+FROM mcr.microsoft.com/dotnet/aspnet:3.1
+WORKDIR /app
+COPY --from=build /app ./
 
 
-EXPOSE 4000 4001
+EXPOSE 80 433
 
-CMD ["dotnet", "out/ManagerUsers.Api.dll"]
+CMD ["dotnet", "ManagerUsers.Api.dll"]

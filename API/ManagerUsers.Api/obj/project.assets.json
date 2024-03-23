@@ -6318,11 +6318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Api/ManagerUsers.Api.csproj",
+      "projectUniqueName": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Api/ManagerUsers.Api.csproj",
       "projectName": "ManagerUsers.Api",
-      "projectPath": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Api/ManagerUsers.Api.csproj",
+      "projectPath": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Api/ManagerUsers.Api.csproj",
       "packagesPath": "/Users/fredpeixoto/.nuget/packages/",
-      "outputPath": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Api/obj/",
+      "outputPath": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/fredpeixoto/.nuget/NuGet/NuGet.Config"
@@ -6338,11 +6338,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Domain/ManagerUsers.Domain.csproj": {
-              "projectPath": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Domain/ManagerUsers.Domain.csproj"
+            "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Domain/ManagerUsers.Domain.csproj": {
+              "projectPath": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Domain/ManagerUsers.Domain.csproj"
             },
-            "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Infra/ManagerUsers.Infra.csproj": {
-              "projectPath": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Infra/ManagerUsers.Infra.csproj"
+            "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Infra/ManagerUsers.Infra.csproj": {
+              "projectPath": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Infra/ManagerUsers.Infra.csproj"
             }
           }
         }

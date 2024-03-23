@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "42gKs61EbRlqEBR6errwIbrAV5pe5qgojbw4gdZ7ONIznd5u6Ovj3J5Atbs4YbqX/d4N9acrKoYJEXgKoUWEEA==",
+  "dgSpecHash": "ndG/66uLmbamp8s794YPbWJ/47OOvuwMHfn7fYFX9hzlkNqsK/JdXMFBinR6zP6TaFVzAGIMO/ev8bBwJg+lUA==",
   "success": true,
-  "projectFilePath": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Infra/ManagerUsers.Infra.csproj",
+  "projectFilePath": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Infra/ManagerUsers.Infra.csproj",
   "expectedPackageFiles": [
     "/Users/fredpeixoto/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/fredpeixoto/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

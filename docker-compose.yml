@@ -3,7 +3,6 @@ version: '3.8'
 services:
   sql1:
     build:
-      context: .
       dockerfile: DATABASE/Dockerfile
     ports:
       - "1433:1433"
@@ -15,12 +14,14 @@ services:
     build: 
       dockerfile: API/Dockerfile
     ports:
-      - "8080:4000"
-      - "8081:4001"
+      - "8080:80"
+      - "8081:433"
     container_name: register-api
     networks:
       - my_bridge_network
+    depends_on:
+      - sql1
 
 networks:
   my_bridge_network:
-    driver: overlay
+    driver: bridge

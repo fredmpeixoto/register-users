@@ -14,8 +14,6 @@ namespace ManagerUsers.Domain.ViewModel
             Name = user.Name;
             Email = user.Email;
             Cpf = user.Cpf;
-            Address = user.Address;
-            Age = user.Age;
             Id = user.Id.ToString();
         }
 
@@ -29,8 +27,6 @@ namespace ManagerUsers.Domain.ViewModel
         [Required, MinLength(8, ErrorMessage ="Min caracter is {1}")]
         public string Password { get; set; }
 
-        [Required(ErrorMessage = "Age is required")]
-        public int Age { get; set; }
 
         [MaxLength(50, ErrorMessage ="Address length is {1}")]
         public string Address { get; set; }

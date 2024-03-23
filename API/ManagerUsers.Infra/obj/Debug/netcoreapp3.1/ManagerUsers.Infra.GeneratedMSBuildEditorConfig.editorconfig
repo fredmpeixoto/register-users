@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = ManagerUsers.Infra
+build_property.ProjectDir = /Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Infra/

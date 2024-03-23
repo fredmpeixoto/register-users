@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jDhtmf56neUOqUQ39tjmF9MF8KxEqJ/uL6LkW8LjBfY2286RCYbkPi4zJ1hSw6AJ8/WxIlDjEZeN+06a6kHIxQ==",
+  "dgSpecHash": "fgK92OS93RnmtP9fQAWpvDFW8W+PganQR72GSEMD3IogYubVD4DN+HV+uFfHCRpY42BC8jp+xQl53eOVWFSI9w==",
   "success": true,
-  "projectFilePath": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Api/ManagerUsers.Api.csproj",
+  "projectFilePath": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Api/ManagerUsers.Api.csproj",
   "expectedPackageFiles": [
     "/Users/fredpeixoto/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/fredpeixoto/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/3.1.12/microsoft.aspnetcore.authentication.jwtbearer.3.1.12.nupkg.sha512",

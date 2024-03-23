@@ -110,9 +110,7 @@ namespace ManagerUsers.Domain.Services
         {
             user.Cpf = entity.Cpf;
             user.Name = entity.Name;
-            user.Age = entity.Age;
             user.Email = entity.Email;
-            user.Address = entity.Address;
             user.Password = entity.Password;
             return user;
         }

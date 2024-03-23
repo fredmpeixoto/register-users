@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Domain/ManagerUsers.Domain.csproj",
+      "projectUniqueName": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Domain/ManagerUsers.Domain.csproj",
       "projectName": "ManagerUsers.Domain",
-      "projectPath": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Domain/ManagerUsers.Domain.csproj",
+      "projectPath": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Domain/ManagerUsers.Domain.csproj",
       "packagesPath": "/Users/fredpeixoto/.nuget/packages/",
-      "outputPath": "/Users/fredpeixoto/Projects/register-users/1 - register - api/ManagerUsers.Domain/obj/",
+      "outputPath": "/Users/fredpeixoto/Projects/register-users/API/ManagerUsers.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/fredpeixoto/.nuget/NuGet/NuGet.Config"
