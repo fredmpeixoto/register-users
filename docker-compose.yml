@@ -22,6 +22,17 @@ services:
     depends_on:
       - sql1
 
+  ui:
+    build: 
+      dockerfile: UI/Dockerfile
+    ports:
+      - "80:80"
+    container_name: ui
+    networks:
+      - my_bridge_network
+    depends_on:
+      - register-api
+
 networks:
   my_bridge_network:
     driver: bridge
