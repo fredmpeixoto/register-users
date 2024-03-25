@@ -1,7 +1,7 @@
 # register-users
-Project to register users using aspnet.core 3.1 and angular 11 and SQL SERVER
+Project to register users using Aspnet.core 3.1, Angular 12 and SQL SERVER
 
-###### Run Docker Compose to up API DATABASE AND UI container
+###### Run Docker Compose to up API, DATABASE AND UI Containers
 
 ``docker compose build && docker compose up``
 
